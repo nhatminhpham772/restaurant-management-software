@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="N19_QuanLyQuanAnModelStoreContainer" CdmEntityContainer="N19_QuanLyQuanAnEntities">
+    <EntitySetMapping Name="BanAns">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.BanAn">
+        <MappingFragment StoreEntitySet="BanAn">
+          <ScalarProperty Name="idBanAn" ColumnName="idBanAn" />
+          <ScalarProperty Name="STTBan" ColumnName="STTBan" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietMonAns">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.ChiTietMonAn">
+        <MappingFragment StoreEntitySet="ChiTietMonAn">
+          <ScalarProperty Name="idChiTiet" ColumnName="idChiTiet" />
+          <ScalarProperty Name="idMonAn" ColumnName="idMonAn" />
+          <ScalarProperty Name="idNguyenLieu" ColumnName="idNguyenLieu" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChucVus">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.ChucVu">
+        <MappingFragment StoreEntitySet="ChucVu">
+          <ScalarProperty Name="idChucVu" ColumnName="idChucVu" />
+          <ScalarProperty Name="TenChucVu" ColumnName="TenChucVu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DanhMucs">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.DanhMuc">
+        <MappingFragment StoreEntitySet="DanhMuc">
+          <ScalarProperty Name="idDanhMuc" ColumnName="idDanhMuc" />
+          <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatHangs">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.DatHang">
+        <MappingFragment StoreEntitySet="DatHang">
+          <ScalarProperty Name="idHoaDon" ColumnName="idHoaDon" />
+          <ScalarProperty Name="idNhanVien" ColumnName="idNhanVien" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatMons">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.DatMon">
+        <MappingFragment StoreEntitySet="DatMon">
+          <ScalarProperty Name="idDatMon" ColumnName="idDatMon" />
+          <ScalarProperty Name="idBanAn" ColumnName="idBanAn" />
+          <ScalarProperty Name="idMonAn" ColumnName="idMonAn" />
+          <ScalarProperty Name="idKhachHang" ColumnName="idKhachHang" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="idHoaDon" ColumnName="idHoaDon" />
+          <ScalarProperty Name="idKhachHang" ColumnName="idKhachHang" />
+          <ScalarProperty Name="Tien" ColumnName="Tien" />
+          <ScalarProperty Name="idKhuyenMai" ColumnName="idKhuyenMai" />
+          <ScalarProperty Name="ThongTin" ColumnName="ThongTin" />
+          <ScalarProperty Name="NgayThanhToan" ColumnName="NgayThanhToan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="idKhachHang" ColumnName="idKhachHang" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhuyenMais">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.KhuyenMai">
+        <MappingFragment StoreEntitySet="KhuyenMai">
+          <ScalarProperty Name="idKhuyenMai" ColumnName="idKhuyenMai" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonAns">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.MonAn">
+        <MappingFragment StoreEntitySet="MonAn">
+          <ScalarProperty Name="idMonAn" ColumnName="idMonAn" />
+          <ScalarProperty Name="TenMonAn" ColumnName="TenMonAn" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="idDanhMuc" ColumnName="idDanhMuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguyenLieux">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.NguyenLieu">
+        <MappingFragment StoreEntitySet="NguyenLieu">
+          <ScalarProperty Name="idNguyenLieu" ColumnName="idNguyenLieu" />
+          <ScalarProperty Name="TenNguyenLieu" ColumnName="TenNguyenLieu" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonViTinh" ColumnName="DonViTinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="idNhanVien" ColumnName="idNhanVien" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="NgayVaoLam" ColumnName="NgayVaoLam" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Luong" ColumnName="Luong" />
+          <ScalarProperty Name="idChucVu" ColumnName="idChucVu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiKhoans">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="idTaiKhoan" ColumnName="idTaiKhoan" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_BanAn">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_BanAn">
+        <MappingFragment StoreEntitySet="frm_BanAn">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="Trang_thai" ColumnName="Trang_thai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_CongThuc">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_CongThuc">
+        <MappingFragment StoreEntitySet="frm_CongThuc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_mon_an" ColumnName="Ten_mon_an" />
+          <ScalarProperty Name="Ten_nguyen_lieu" ColumnName="Ten_nguyen_lieu" />
+          <ScalarProperty Name="So_luong" ColumnName="So_luong" />
+          <ScalarProperty Name="Don_vi" ColumnName="Don_vi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_DanhMuc">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_DanhMuc">
+        <MappingFragment StoreEntitySet="frm_DanhMuc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_danh_muc" ColumnName="Ten_danh_muc" />
+          <ScalarProperty Name="Mo_ta" ColumnName="Mo_ta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_DatMon">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_DatMon">
+        <MappingFragment StoreEntitySet="frm_DatMon">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_Mon_An" ColumnName="Ten_Mon_An" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="So_luong" ColumnName="So_luong" />
+          <ScalarProperty Name="Ten_Khach_Hang" ColumnName="Ten_Khach_Hang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_DoanhThu">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_DoanhThu">
+        <MappingFragment StoreEntitySet="frm_DoanhThu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_khach_hang" ColumnName="Ten_khach_hang" />
+          <ScalarProperty Name="Tien" ColumnName="Tien" />
+          <ScalarProperty Name="Ngay_thanh_toan" ColumnName="Ngay_thanh_toan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_KhachHang">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_KhachHang">
+        <MappingFragment StoreEntitySet="frm_KhachHang">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ho_ten" ColumnName="Ho_ten" />
+          <ScalarProperty Name="Gioi_tinh" ColumnName="Gioi_tinh" />
+          <ScalarProperty Name="So_dien_thoai" ColumnName="So_dien_thoai" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_KhoHang">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_KhoHang">
+        <MappingFragment StoreEntitySet="frm_KhoHang">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_nguyen_lieu" ColumnName="Ten_nguyen_lieu" />
+          <ScalarProperty Name="So_Luong" ColumnName="So_Luong" />
+          <ScalarProperty Name="Don_vi" ColumnName="Don_vi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_MonAn">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_MonAn">
+        <MappingFragment StoreEntitySet="frm_MonAn">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_Mon_An" ColumnName="Ten_Mon_An" />
+          <ScalarProperty Name="Gia_tien" ColumnName="Gia_tien" />
+          <ScalarProperty Name="Ten_danh_muc" ColumnName="Ten_danh_muc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_NhanVien">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_NhanVien">
+        <MappingFragment StoreEntitySet="frm_NhanVien">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ho_ten" ColumnName="Ho_ten" />
+          <ScalarProperty Name="Gioi_tinh" ColumnName="Gioi_tinh" />
+          <ScalarProperty Name="Ngay_sinh" ColumnName="Ngay_sinh" />
+          <ScalarProperty Name="So_dien_thoai" ColumnName="So_dien_thoai" />
+          <ScalarProperty Name="Dia_chi" ColumnName="Dia_chi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Chuc_vu" ColumnName="Chuc_vu" />
+          <ScalarProperty Name="Ngay_vao_lam" ColumnName="Ngay_vao_lam" />
+          <ScalarProperty Name="Luong" ColumnName="Luong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frm_TaiKhoan">
+      <EntityTypeMapping TypeName="N19_QuanLyQuanAnModel.frm_TaiKhoan">
+        <MappingFragment StoreEntitySet="frm_TaiKhoan">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_dang_nhap" ColumnName="Ten_dang_nhap" />
+          <ScalarProperty Name="Mat_khau" ColumnName="Mat_khau" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.DSDoanhThuTrongKhoangTG" FunctionImportName="DSDoanhThuTrongKhoangTG">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.DSDoanhThuTrongKhoangTG_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_khach_hang" ColumnName="Ten_khach_hang" />
+          <ScalarProperty Name="Tien" ColumnName="Tien" />
+          <ScalarProperty Name="Ngay_thanh_toan" ColumnName="Ngay_thanh_toan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimCongThuc" FunctionImportName="TimCongThuc">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimCongThuc_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_mon_an" ColumnName="Ten_mon_an" />
+          <ScalarProperty Name="Ten_nguyen_lieu" ColumnName="Ten_nguyen_lieu" />
+          <ScalarProperty Name="So_luong" ColumnName="So_luong" />
+          <ScalarProperty Name="Don_vi" ColumnName="Don_vi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimDanhMuc" FunctionImportName="TimDanhMuc">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimDanhMuc_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_danh_muc" ColumnName="Ten_danh_muc" />
+          <ScalarProperty Name="Mo_ta" ColumnName="Mo_ta" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimDanhMucCuaMonAn" FunctionImportName="TimDanhMucCuaMonAn">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimDanhMucCuaMonAn_Result">
+          <ScalarProperty Name="idDanhMuc" ColumnName="idDanhMuc" />
+          <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimKhachHang" FunctionImportName="TimKhachHang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimKhachHang_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ho_ten" ColumnName="Ho_ten" />
+          <ScalarProperty Name="Gioi_tinh" ColumnName="Gioi_tinh" />
+          <ScalarProperty Name="So_dien_thoai" ColumnName="So_dien_thoai" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimMonAn" FunctionImportName="TimMonAn">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimMonAn_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_Mon_An" ColumnName="Ten_Mon_An" />
+          <ScalarProperty Name="Gia_tien" ColumnName="Gia_tien" />
+          <ScalarProperty Name="Ten_danh_muc" ColumnName="Ten_danh_muc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimNguyenLieu" FunctionImportName="TimNguyenLieu">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimNguyenLieu_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten_nguyen_lieu" ColumnName="Ten_nguyen_lieu" />
+          <ScalarProperty Name="So_Luong" ColumnName="So_Luong" />
+          <ScalarProperty Name="Don_vi" ColumnName="Don_vi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="N19_QuanLyQuanAnModel.Store.TimNhanVien" FunctionImportName="TimNhanVien">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="N19_QuanLyQuanAnModel.TimNhanVien_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ho_ten" ColumnName="Ho_ten" />
+          <ScalarProperty Name="Gioi_tinh" ColumnName="Gioi_tinh" />
+          <ScalarProperty Name="Ngay_sinh" ColumnName="Ngay_sinh" />
+          <ScalarProperty Name="So_dien_thoai" ColumnName="So_dien_thoai" />
+          <ScalarProperty Name="Dia_chi" ColumnName="Dia_chi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Chuc_vu" ColumnName="Chuc_vu" />
+          <ScalarProperty Name="Ngay_vao_lam" ColumnName="Ngay_vao_lam" />
+          <ScalarProperty Name="Luong" ColumnName="Luong" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SuaBanAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaBanAn" />
+    <FunctionImportMapping FunctionImportName="sp_SuaChiTietMonAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaChiTietMonAn" />
+    <FunctionImportMapping FunctionImportName="sp_SuaDanhMuc" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaDanhMuc" />
+    <FunctionImportMapping FunctionImportName="sp_SuaDatMon" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaDatMon" />
+    <FunctionImportMapping FunctionImportName="sp_SuaHoaDon" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaHoaDon" />
+    <FunctionImportMapping FunctionImportName="sp_SuaKhachHang" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaKhachHang" />
+    <FunctionImportMapping FunctionImportName="sp_SuaMonAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaMonAn" />
+    <FunctionImportMapping FunctionImportName="sp_SuaNguyenLieu" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaNguyenLieu" />
+    <FunctionImportMapping FunctionImportName="sp_SuaNhanVien" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaNhanVien" />
+    <FunctionImportMapping FunctionImportName="sp_SuaTaiKhoan" FunctionName="N19_QuanLyQuanAnModel.Store.sp_SuaTaiKhoan" />
+    <FunctionImportMapping FunctionImportName="sp_ThemBanAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemBanAn" />
+    <FunctionImportMapping FunctionImportName="sp_ThemChiTietMonAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemChiTietMonAn" />
+    <FunctionImportMapping FunctionImportName="sp_ThemDanhMuc" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemDanhMuc" />
+    <FunctionImportMapping FunctionImportName="sp_ThemDatMon" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemDatMon" />
+    <FunctionImportMapping FunctionImportName="sp_ThemHoaDon" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemHoaDon" />
+    <FunctionImportMapping FunctionImportName="sp_ThemKhachHang" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemKhachHang" />
+    <FunctionImportMapping FunctionImportName="sp_ThemMonAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemMonAn" />
+    <FunctionImportMapping FunctionImportName="sp_ThemNguyenLieu" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemNguyenLieu" />
+    <FunctionImportMapping FunctionImportName="sp_ThemNhanVien" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemNhanVien" />
+    <FunctionImportMapping FunctionImportName="sp_ThemTaiKhoan" FunctionName="N19_QuanLyQuanAnModel.Store.sp_ThemTaiKhoan" />
+    <FunctionImportMapping FunctionImportName="sp_TinhTien" FunctionName="N19_QuanLyQuanAnModel.Store.sp_TinhTien" />
+    <FunctionImportMapping FunctionImportName="sp_XoaChiTietMonAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaChiTietMonAn" />
+    <FunctionImportMapping FunctionImportName="sp_XoaDanhMuc" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaDanhMuc" />
+    <FunctionImportMapping FunctionImportName="sp_XoaDatMon" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaDatMon" />
+    <FunctionImportMapping FunctionImportName="sp_XoaHoaDon" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaHoaDon" />
+    <FunctionImportMapping FunctionImportName="sp_XoaKhachHang" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaKhachHang" />
+    <FunctionImportMapping FunctionImportName="sp_XoaMonAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaMonAn" />
+    <FunctionImportMapping FunctionImportName="sp_XoaMotBanAn" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaMotBanAn" />
+    <FunctionImportMapping FunctionImportName="sp_XoaNguyenLieu" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaNguyenLieu" />
+    <FunctionImportMapping FunctionImportName="sp_XoaNhanVien" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaNhanVien" />
+    <FunctionImportMapping FunctionImportName="sp_XoaTaiKhoan" FunctionName="N19_QuanLyQuanAnModel.Store.sp_XoaTaiKhoan" />
+    <FunctionImportMapping FunctionImportName="upstp_TrangThaiBan" FunctionName="N19_QuanLyQuanAnModel.Store.upstp_TrangThaiBan" />
+  </EntityContainerMapping>
+</Mapping>

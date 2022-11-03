@@ -12,9 +12,15 @@ namespace N19_restaurant_management_software
 {
     public partial class frmDangNhap : Form
     {
+        N19_QuanLyQuanAnEntities db = new N19_QuanLyQuanAnEntities();
         public frmDangNhap()
         {
             InitializeComponent();
+        }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = db.frm_DatMon.ToList();
         }
     }
 }

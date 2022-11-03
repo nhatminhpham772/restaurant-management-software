@@ -8,3 +8,9 @@ D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management soft
 D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CoreCompileInputs.cache
 D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.exe
 D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.pdb
+D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.dll
+D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.dll
+D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.xml
+D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.xml
+D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CopyComplete
+D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmDangNhap.resources

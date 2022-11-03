@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6e651b446594b8ca9d47bf48aa3d59f" Name="Diagram1">
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.BanAn" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.ChiTietMonAn" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.ChucVu" Width="1.5" PointX="8.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.DanhMuc" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.DatHang" Width="1.5" PointX="13.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.DatMon" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.HoaDon" Width="1.5" PointX="11.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.KhachHang" Width="1.5" PointX="6" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.KhuyenMai" Width="1.5" PointX="9" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.MonAn" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.NguyenLieu" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.NhanVien" Width="1.5" PointX="11" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_BanAn" Width="1.5" PointX="2.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_CongThuc" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_DanhMuc" Width="1.5" PointX="2.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_DatMon" Width="1.5" PointX="4.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_DoanhThu" Width="1.5" PointX="6.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_KhachHang" Width="1.5" PointX="8.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_KhoHang" Width="1.5" PointX="10.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_MonAn" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_NhanVien" Width="1.5" PointX="2.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="N19_QuanLyQuanAnModel.frm_TaiKhoan" Width="1.5" PointX="12.75" PointY="13.125" IsExpanded="true" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__DatMon__idBanAn__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__ChiTietMo__idMon__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__ChiTietMo__idNgu__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__NhanVien__idChuc__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__MonAn__idDanhMuc__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__DatHang__idNhanV__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__DatMon__idKhachH__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__DatMon__idMonAn__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__HoaDon__idKhachH__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="N19_QuanLyQuanAnModel.FK__HoaDon__idKhuyen__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

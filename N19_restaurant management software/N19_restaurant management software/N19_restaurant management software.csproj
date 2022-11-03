@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +55,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BanAn.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietMonAn.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChucVu.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatHang.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatMon.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSDoanhThuTrongKhoangTG_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
     <Compile Include="frmBanAn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,8 +124,98 @@
     <Compile Include="frmThucDon.Designer.cs">
       <DependentUpon>frmThucDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_BanAn.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CongThuc.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DanhMuc.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DatMon.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DoanhThu.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhachHang.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhoHang.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MonAn.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NhanVien.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TaiKhoan.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhuyenMai.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonAn.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenLieu.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLQA.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQA.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLQA.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLQA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQA.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimCongThuc_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimDanhMucCuaMonAn_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimDanhMuc_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimKhachHang_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimMonAn_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimNguyenLieu_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimNhanVien_Result.cs">
+      <DependentUpon>QLQA.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -105,6 +225,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,12 +235,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EntityDeploy Include="QLQA.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLQA.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="QLQA.edmx.diagram">
+      <DependentUpon>QLQA.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QLQA.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>QLQA.Context.cs</LastGenOutput>
+      <DependentUpon>QLQA.edmx</DependentUpon>
+    </Content>
+    <Content Include="QLQA.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLQA.edmx</DependentUpon>
+      <LastGenOutput>QLQA.cs</LastGenOutput>
+    </Content>
     <Content Include="Resources\001-close.png" />
     <Content Include="Resources\001-rotate.png" />
     <Content Include="Resources\002-delete.png" />
