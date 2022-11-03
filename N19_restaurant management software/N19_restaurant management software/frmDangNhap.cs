@@ -20,7 +20,7 @@ namespace N19_restaurant_management_software
 
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = db.frm_DatMon.ToList();
+
         }
     }
 }

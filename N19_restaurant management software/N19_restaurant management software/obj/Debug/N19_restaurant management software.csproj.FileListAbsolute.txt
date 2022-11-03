@@ -14,3 +14,19 @@ D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management soft
 D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.xml
 D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CopyComplete
 D:\HQTCSDL\git\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmDangNhap.resources
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\N19_restaurant management software.exe.config
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\N19_restaurant management software.exe
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\N19_restaurant management software.pdb
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.dll
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.dll
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.xml
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.xml
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.AssemblyReference.cache
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.SuggestedBindingRedirects.cache
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmDangNhap.resources
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.Properties.Resources.resources
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.GenerateResource.cache
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CoreCompileInputs.cache
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CopyComplete
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.exe
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.pdb
