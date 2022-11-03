@@ -46,11 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmBanAn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmBanAn.Designer.cs">
+      <DependentUpon>frmBanAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoanhThu.Designer.cs">
+      <DependentUpon>frmDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhoHang.Designer.cs">
+      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaiKhoan.Designer.cs">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThucDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThucDon.Designer.cs">
+      <DependentUpon>frmThucDon.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +117,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\001-close.png" />
+    <Content Include="Resources\001-rotate.png" />
+    <Content Include="Resources\002-delete.png" />
+    <Content Include="Resources\002-exchange.png" />
+    <Content Include="Resources\003-signs.png" />
+    <Content Include="Resources\003-signs1.png" />
+    <Content Include="Resources\1a7ce4bdd9c70983be9abf84fcc0c060.jpg" />
+    <Content Include="Resources\21db866c2086a86c5ec0f55b70269fa9-best-bbq-food-background-design.jpg" />
+    <Content Include="Resources\297327124.jpg" />
+    <Content Include="Resources\47459725.jpg" />
+    <Content Include="Resources\474597251.jpg" />
+    <Content Include="Resources\51882.png" />
+    <Content Include="Resources\8fa9f236abea637935de62e1d0dc777f.jpg" />
+    <Content Include="Resources\arrows.png" />
+    <Content Include="Resources\arrows1.png" />
+    <Content Include="Resources\background.jpg" />
+    <Content Include="Resources\blackpink-kill-this-love-MV-2019-billboard-1548.jpg" />
+    <Content Include="Resources\c4EaG1.jpg" />
+    <Content Include="Resources\e67daf68a6e8f6d4a9283cb7d64b098c.jpg" />
+    <Content Include="Resources\e67daf68a6e8f6d4a9283cb7d64b098c1.jpg" />
+    <Content Include="Resources\edit-icon.png" />
+    <Content Include="Resources\ic_exit_to_app_black_24dp_2x.png" />
+    <Content Include="Resources\istockphoto-1316145932-170667a.jpg" />
+    <Content Include="Resources\pngwing.com.png" />
+    <Content Include="Resources\save-png-as-icon-29.jpg" />
+    <Content Include="Resources\seamless-money-background-vector.jpg" />
+    <Content Include="Resources\tải xuống %283%29.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
