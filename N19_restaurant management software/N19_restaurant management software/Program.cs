@@ -16,7 +16,7 @@ namespace N19_restaurant_management_software
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmNhanVien());
+            Application.Run(new frmThucDon());
         }
     }
 }
