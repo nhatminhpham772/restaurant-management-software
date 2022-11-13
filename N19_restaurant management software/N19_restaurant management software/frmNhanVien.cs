@@ -253,7 +253,7 @@ namespace N19_restaurant_management_software
         }
         private void getNgayVaoLam()
         {
-            string ngay = dTPNgaySinh.Value.ToString("MM/dd/yyyy");
+            string ngay = dTPNgayVaoLam.Value.ToString("MM/dd/yyyy");
             txtNgayVaoLam.Text = ngay;
         }
 
@@ -292,10 +292,7 @@ namespace N19_restaurant_management_software
             getNgayVaoLam();
         }
 
-        private void txtChucVu_TextChanged(object sender, EventArgs e)
-        {
 
-        }
 
         private void dgvNV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -313,7 +310,5 @@ namespace N19_restaurant_management_software
             }
 
         }
-
-
     }
 }

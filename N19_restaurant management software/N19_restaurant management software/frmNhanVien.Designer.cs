@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panThongTinCaNhan = new System.Windows.Forms.GroupBox();
+            this.cBChucVu = new System.Windows.Forms.ComboBox();
+            this.dTPNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.dTPNgayVaoLam = new System.Windows.Forms.DateTimePicker();
             this.panRadioButton = new System.Windows.Forms.Panel();
             this.radfalse = new System.Windows.Forms.RadioButton();
             this.radTrue = new System.Windows.Forms.RadioButton();
@@ -83,9 +86,6 @@
             this.NgayVaoLam = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lbQuảnLýNhânViên = new System.Windows.Forms.Label();
-            this.dTPNgayVaoLam = new System.Windows.Forms.DateTimePicker();
-            this.dTPNgaySinh = new System.Windows.Forms.DateTimePicker();
-            this.cBChucVu = new System.Windows.Forms.ComboBox();
             this.panThongTinCaNhan.SuspendLayout();
             this.panRadioButton.SuspendLayout();
             this.panThongTinLienLac.SuspendLayout();
@@ -133,6 +133,31 @@
             this.panThongTinCaNhan.TabIndex = 3;
             this.panThongTinCaNhan.TabStop = false;
             this.panThongTinCaNhan.Text = "Thông Tin Cá Nhân";
+            // 
+            // cBChucVu
+            // 
+            this.cBChucVu.FormattingEnabled = true;
+            this.cBChucVu.Location = new System.Drawing.Point(223, 260);
+            this.cBChucVu.Name = "cBChucVu";
+            this.cBChucVu.Size = new System.Drawing.Size(201, 23);
+            this.cBChucVu.TabIndex = 40;
+            this.cBChucVu.SelectedIndexChanged += new System.EventHandler(this.cBChucVu_SelectedIndexChanged);
+            // 
+            // dTPNgaySinh
+            // 
+            this.dTPNgaySinh.Location = new System.Drawing.Point(273, 182);
+            this.dTPNgaySinh.Name = "dTPNgaySinh";
+            this.dTPNgaySinh.Size = new System.Drawing.Size(151, 23);
+            this.dTPNgaySinh.TabIndex = 39;
+            this.dTPNgaySinh.ValueChanged += new System.EventHandler(this.dTPNgaySinh_ValueChanged);
+            // 
+            // dTPNgayVaoLam
+            // 
+            this.dTPNgayVaoLam.Location = new System.Drawing.Point(273, 297);
+            this.dTPNgayVaoLam.Name = "dTPNgayVaoLam";
+            this.dTPNgayVaoLam.Size = new System.Drawing.Size(151, 23);
+            this.dTPNgayVaoLam.TabIndex = 38;
+            this.dTPNgayVaoLam.ValueChanged += new System.EventHandler(this.dTPNgayVaoLam_ValueChanged);
             // 
             // panRadioButton
             // 
@@ -198,7 +223,6 @@
             this.txtChucVu.Name = "txtChucVu";
             this.txtChucVu.Size = new System.Drawing.Size(29, 23);
             this.txtChucVu.TabIndex = 7;
-            this.txtChucVu.TextChanged += new System.EventHandler(this.txtChucVu_TextChanged);
             // 
             // txtCMND
             // 
@@ -213,7 +237,7 @@
             this.txtHoTen.Location = new System.Drawing.Point(188, 70);
             this.txtHoTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(147, 23);
+            this.txtHoTen.Size = new System.Drawing.Size(236, 23);
             this.txtHoTen.TabIndex = 2;
             // 
             // txtMSNV
@@ -221,7 +245,7 @@
             this.txtMSNV.Location = new System.Drawing.Point(188, 31);
             this.txtMSNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMSNV.Name = "txtMSNV";
-            this.txtMSNV.Size = new System.Drawing.Size(147, 23);
+            this.txtMSNV.Size = new System.Drawing.Size(79, 23);
             this.txtMSNV.TabIndex = 1;
             // 
             // lbNgàyVàoLàm
@@ -699,31 +723,6 @@
             this.lbQuảnLýNhânViên.TabIndex = 24;
             this.lbQuảnLýNhânViên.Text = "QUẢN LÝ NHÂN VIÊN ";
             this.lbQuảnLýNhânViên.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dTPNgayVaoLam
-            // 
-            this.dTPNgayVaoLam.Location = new System.Drawing.Point(273, 297);
-            this.dTPNgayVaoLam.Name = "dTPNgayVaoLam";
-            this.dTPNgayVaoLam.Size = new System.Drawing.Size(258, 23);
-            this.dTPNgayVaoLam.TabIndex = 38;
-            this.dTPNgayVaoLam.ValueChanged += new System.EventHandler(this.dTPNgayVaoLam_ValueChanged);
-            // 
-            // dTPNgaySinh
-            // 
-            this.dTPNgaySinh.Location = new System.Drawing.Point(273, 182);
-            this.dTPNgaySinh.Name = "dTPNgaySinh";
-            this.dTPNgaySinh.Size = new System.Drawing.Size(258, 23);
-            this.dTPNgaySinh.TabIndex = 39;
-            this.dTPNgaySinh.ValueChanged += new System.EventHandler(this.dTPNgaySinh_ValueChanged);
-            // 
-            // cBChucVu
-            // 
-            this.cBChucVu.FormattingEnabled = true;
-            this.cBChucVu.Location = new System.Drawing.Point(223, 260);
-            this.cBChucVu.Name = "cBChucVu";
-            this.cBChucVu.Size = new System.Drawing.Size(247, 23);
-            this.cBChucVu.TabIndex = 40;
-            this.cBChucVu.SelectedIndexChanged += new System.EventHandler(this.cBChucVu_SelectedIndexChanged);
             // 
             // frmNhanVien
             // 
