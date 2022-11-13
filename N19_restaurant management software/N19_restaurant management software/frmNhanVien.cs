@@ -306,10 +306,6 @@ namespace N19_restaurant_management_software
                     radTrue.Checked = true;
                 else
                     radfalse.Checked = true;
-
-                txtNgaySinh.Text = dgvNV.Rows[r].Cells[3].Value.ToString();
-                txtNgayVaoLam.Text = dgvNV.Rows[r].Cells[9].Value.ToString();
-                txtLuong.Text = dgvNV.Rows[r].Cells[10].Value.ToString();
             }
             catch
             {
