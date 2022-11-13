@@ -30,3 +30,4 @@ D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management soft
 D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CopyComplete
 D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.exe
 D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.pdb
+D:\KI7\HQT\doanhqt\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmNhanVien.resources
