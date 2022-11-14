@@ -23,10 +23,10 @@ namespace N19_restaurant_management_software
         string query = "SELECT * FROM frm_MonAn";
         void LoadData()
         {
-
-            var cmd = new SqlCommand(query, connection);
-            var da = new SqlDataAdapter(cmd);
-            var dt = new DataTable();
+            string query = "SELECT * FROM frm_MonAn";
+            SqlCommand cmd = new SqlCommand(query, connection);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
             da.Fill(dt);
             da.Dispose();
             dataGridView1.DataSource = dt;
@@ -123,6 +123,32 @@ namespace N19_restaurant_management_software
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Xoa thanh cong!");
                 LoadData();
+            }
+            catch
+            {
+                MessageBox.Show("That bai");
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        private void searchBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                connection.Open();
+                string query = "SELECT * FROM dbo.TimMonAn(@TenMonAn)";
+                SqlCommand cmd = new SqlCommand(query, connection);
+                //cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@TenMonAn", searchTxt.Text);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Tìm thành công!");
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
             }
             catch
             {

@@ -41,6 +41,9 @@
             this.editBtn = new System.Windows.Forms.Button();
             this.deleteBtn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.searchTxt = new System.Windows.Forms.TextBox();
+            this.searchBtn = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,11 +159,40 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(276, 22);
             this.dateTimePicker1.TabIndex = 14;
             // 
+            // searchTxt
+            // 
+            this.searchTxt.Location = new System.Drawing.Point(172, 42);
+            this.searchTxt.Name = "searchTxt";
+            this.searchTxt.Size = new System.Drawing.Size(228, 22);
+            this.searchTxt.TabIndex = 23;
+            // 
+            // searchBtn
+            // 
+            this.searchBtn.Location = new System.Drawing.Point(449, 25);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.Size = new System.Drawing.Size(89, 45);
+            this.searchBtn.TabIndex = 24;
+            this.searchBtn.Text = "Tìm";
+            this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(78, 48);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 16);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Tìm kiếm";
+            // 
             // frmThucDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1224, 562);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.searchBtn);
+            this.Controls.Add(this.searchTxt);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.editBtn);
@@ -199,5 +231,8 @@
         private System.Windows.Forms.Button editBtn;
         private System.Windows.Forms.Button deleteBtn;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox searchTxt;
+        private System.Windows.Forms.Button searchBtn;
+        private System.Windows.Forms.Label label6;
     }
 }

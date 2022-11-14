@@ -44,6 +44,9 @@
             this.delbtn = new System.Windows.Forms.Button();
             this.idTxt = new System.Windows.Forms.TextBox();
             this.id = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.searchTxt = new System.Windows.Forms.TextBox();
+            this.searchBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,7 +128,7 @@
             // 
             // dateTxt
             // 
-            this.dateTxt.Location = new System.Drawing.Point(458, 22);
+            this.dateTxt.Location = new System.Drawing.Point(578, 22);
             this.dateTxt.Name = "dateTxt";
             this.dateTxt.Size = new System.Drawing.Size(274, 22);
             this.dateTxt.TabIndex = 11;
@@ -133,7 +136,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(386, 22);
+            this.label1.Location = new System.Drawing.Point(518, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 16);
             this.label1.TabIndex = 12;
@@ -185,11 +188,40 @@
             this.id.TabIndex = 18;
             this.id.Text = "id";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 61);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 16);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Tìm kiếm";
+            // 
+            // searchTxt
+            // 
+            this.searchTxt.Location = new System.Drawing.Point(97, 55);
+            this.searchTxt.Name = "searchTxt";
+            this.searchTxt.Size = new System.Drawing.Size(228, 22);
+            this.searchTxt.TabIndex = 22;
+            // 
+            // searchBtn
+            // 
+            this.searchBtn.Location = new System.Drawing.Point(358, 47);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.Size = new System.Drawing.Size(89, 45);
+            this.searchBtn.TabIndex = 23;
+            this.searchBtn.Text = "Tìm";
+            this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
+            // 
             // frmKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1227, 573);
+            this.Controls.Add(this.searchBtn);
+            this.Controls.Add(this.searchTxt);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.idTxt);
             this.Controls.Add(this.id);
             this.Controls.Add(this.delbtn);
@@ -234,5 +266,8 @@
         private System.Windows.Forms.Button delbtn;
         private System.Windows.Forms.TextBox idTxt;
         private System.Windows.Forms.Label id;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox searchTxt;
+        private System.Windows.Forms.Button searchBtn;
     }
 }
