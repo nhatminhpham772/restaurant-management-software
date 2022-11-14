@@ -48,7 +48,7 @@ namespace N19_restaurant_management_software
             
             try
             {
-               
+                connection.Open();
                 string query = "sp_ThemKhachHang";
                 SqlCommand cmd = new SqlCommand(query, connection);
                 cmd.CommandType = CommandType.StoredProcedure;

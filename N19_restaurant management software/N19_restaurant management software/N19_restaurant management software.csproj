@@ -292,10 +292,13 @@
     <Content Include="Resources\e67daf68a6e8f6d4a9283cb7d64b098c1.jpg" />
     <Content Include="Resources\edit-icon.png" />
     <Content Include="Resources\ic_exit_to_app_black_24dp_2x.png" />
+    <None Include="Resources\istockphoto-1220584431-612x612.jpg" />
     <Content Include="Resources\istockphoto-1316145932-170667a.jpg" />
+    <None Include="Resources\istockphoto-589127098-612x612.jpg" />
     <Content Include="Resources\pngwing.com.png" />
     <Content Include="Resources\save-png-as-icon-29.jpg" />
     <Content Include="Resources\seamless-money-background-vector.jpg" />
+    <None Include="Resources\seamless-restaurant-menu-pattern-background-vector-1807252.jpg" />
     <Content Include="Resources\tải xuống %283%29.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

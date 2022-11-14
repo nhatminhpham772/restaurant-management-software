@@ -69,5 +69,35 @@ namespace N19_restaurant_management_software.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1220584431_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1220584431-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_589127098_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-589127098-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seamless_restaurant_menu_pattern_background_vector_1807252 {
+            get {
+                object obj = ResourceManager.GetObject("seamless-restaurant-menu-pattern-background-vector-1807252", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
