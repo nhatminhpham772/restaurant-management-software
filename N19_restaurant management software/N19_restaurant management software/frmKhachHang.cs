@@ -13,7 +13,7 @@ namespace N19_restaurant_management_software
 {
     public partial class frmKhachHang : Form
     {
-        SqlConnection connection = new SqlConnection("Data Source=LAPTOP-P2BSC4LO;Initial Catalog = N19_QuanLyQuanAn; User ID = sa; Password=hoang2002");
+        SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog = N19_QuanLyQuanAn; User ID = sa; Password=sa");
         public frmKhachHang()
         {
             InitializeComponent();

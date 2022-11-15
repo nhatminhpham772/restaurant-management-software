@@ -50,3 +50,23 @@ C:\Users\Lenovo\Desktop\restaurant-management-software\N19_restaurant management
 C:\Users\Lenovo\Desktop\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.exe
 C:\Users\Lenovo\Desktop\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.pdb
 C:\Users\Lenovo\Desktop\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmThucDon.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\N19_restaurant management software.exe.config
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\N19_restaurant management software.exe
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\N19_restaurant management software.pdb
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.dll
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.dll
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.xml
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\bin\Debug\EntityFramework.SqlServer.xml
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.AssemblyReference.cache
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmDangNhap.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmKhachHang.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmNhanVien.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmThucDon.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.Properties.Resources.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.GenerateResource.cache
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CoreCompileInputs.cache
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.csproj.CopyComplete
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.exe
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant management software.pdb
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmBanAn.resources
+D:\tailieu\GIT\hqtcsdl\restaurant-management-software\N19_restaurant management software\N19_restaurant management software\obj\Debug\N19_restaurant_management_software.frmKhoHang.resources
